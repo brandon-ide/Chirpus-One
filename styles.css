@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Custom Font';
+    src: url(OpenSans-VariableFont_wdth\,wght.ttf);
+}
+body{
+    font-family: 'Custom Font';
+    padding: 10px;
+    background-color: #f9fafc;
+}
+
+.top {
+    display: inline;
+    justify-content: space-between;
+}
+
+h3{
+    font-weight: 500;
+}
+
+h1{
+    font-weight: 600;
+}
+
+h2{
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+    color: #69696a;
+    margin-right: 10px;
+
+}
+
+.button{
+    width: 100%;
+    background-color: #000;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+p{
+    border-left: #000 solid;
+    color: #69696a;
+    text-align: center;
+}
+
+footer{
+    background-color: rgba(247, 193, 162, 0.7);
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    
+    
+}
+
+.links {
+    display: flex;
+    margin-right: 20px;
+
+}
